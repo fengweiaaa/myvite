@@ -1,0 +1,25 @@
+{
+  "name": "myvite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "mitt": "^3.0.0",
+    "pinia": "^2.0.32",
+    "pinia-plugin-persist": "^1.0.0",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.0.0",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "unplugin-auto-import": "^0.14.3",
+    "vite": "^4.1.0"
+  }
+}
